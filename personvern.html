@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="no" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personvernerklæring - Solveig I. Moberg</title>
+    <meta name="theme-color" content="#fafafa">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('theme');
+                var theme = stored === 'dark' ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+                var meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute('content', theme === 'dark' ? '#111111' : '#fafafa');
+            } catch (e) {}
+        })();
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#innhold">Hopp til innhold</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="/">Solveig I. Moberg</a>
+            <nav id="site-nav" class="site-nav" aria-label="Hovedmeny">
+                <a href="/">Hjem</a>
+                <a href="/om-meg">Om meg</a>
+                <a href="/kunstvev">Kunstvev</a>
+                <a href="/collage">Collage</a>
+                <a href="/kontakt">Kontakt</a>
+            </nav>
+            <button type="button" id="theme-toggle" class="icon-btn theme-toggle" aria-pressed="false" aria-label="Bytt til mørk modus">
+                <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"/>
+                </svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M19.2 4.8l-1.6 1.6M6.4 17.6l-1.6 1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <button type="button" class="icon-btn nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Meny">
+                <svg class="icon-menu" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main id="innhold" class="section">
+        <article class="section-inner prose">
+            <h1>Personvernerklæring</h1>
+            <p>Personvernerklæring for <a href="https://solveig.im">solveig.im</a></p>
+
+            <h2>Hva vi samler inn og hvorfor</h2>
+            <p>Denne nettsiden samler ikke inn eller lagrer informasjon om besøkende automatisk. Vi bruker ingen informasjonskapsler (cookies) eller lignende teknologier. Det eneste vi håndterer er opplysninger du selv velger å sende via kontaktskjemaet vårt. Når du fyller ut skjemaet, kan du oppgi navn, e-postadresse og en melding. Disse opplysningene sendes direkte til vår e-postadresse for å besvare henvendelsen din. Vi lagrer ikke disse opplysningene på nettsiden eller i andre systemer utover e-posten.</p>
+            <p>Valget mellom lys og mørk visning lagres bare i nettleseren din (localStorage) og sendes ikke noe sted.</p>
+
+            <h2>Hvordan vi bruker opplysningene</h2>
+            <p>Opplysningene du sender via kontaktskjemaet brukes kun til å kontakte deg tilbake angående din henvendelse. Vi deler ikke informasjonen med andre, med mindre det er nødvendig for å oppfylle en lovlig plikt.</p>
+
+            <h2>Dine rettigheter</h2>
+            <p>Du har rett til å be om innsyn i hvilke opplysninger vi har mottatt fra deg, og du kan be om at de slettes. Siden vi kun lagrer opplysningene i e-posten vår, kan du kontakte oss direkte på <a href="/kontakt">solveig.im/kontakt</a> hvis du ønsker dette.</p>
+
+            <h2>Kontakt oss</h2>
+            <p>Har du spørsmål om hvordan vi håndterer personopplysninger? Ta kontakt på <a href="/kontakt">solveig.im/kontakt</a>.</p>
+
+            <h2>Endringer</h2>
+            <p>Vi kan oppdatere denne personvernerklæringen ved behov. Sjekk gjerne tilbake senere for å se om noe har endret seg.</p>
+
+            <p><a href="https://solveig.im">← Tilbake til forsiden</a></p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="personvern.html">Personvernerklæring</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

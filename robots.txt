@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /fonts/
+Allow: /styles.css
+Allow: /scripts.js
+Allow: /sitemap.xml
+
+Sitemap: https://solveig.im/sitemap.xml 

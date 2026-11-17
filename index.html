@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="no" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solveig I. Moberg - Kunstvev & Collager</title>
+    <meta name="theme-color" content="#fafafa">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+
+    <meta name="description" content="Portefølje for Solveig I. Moberg, med fokus på kunstvev og collager. Utforsk hennes unike tekstilkunst og verk i blandede medier.">
+    <meta name="keywords" content="Solveig I. Moberg, kunstvev, collager, textile art, Norwegian artist, vevnad">
+    <meta name="author" content="Solveig I. Moberg">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Solveig I. Moberg - Kunstvev & Collager">
+    <meta property="og:description" content="Portefølje for Solveig I. Moberg, med fokus på kunstvev og collager. Utforsk hennes unike tekstilkunst og verk i blandede medier.">
+    <meta property="og:image" content="images/sim_01.jpg">
+    <meta property="og:url" content="https://solveig.im">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Solveig I. Moberg - Kunstvev & Collager">
+    <meta name="twitter:description" content="Portefølje for Solveig I. Moberg, med kunstvev og collager.">
+    <meta name="twitter:image" content="images/sim_01.jpg">
+
+    <link rel="canonical" href="https://solveig.im">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Solveig I. Moberg",
+      "url": "https://solveig.im",
+      "description": "Norsk kunstner som spesialiserer seg på kunstvev og collager.",
+      "image": "images/sim_01.jpg",
+      "sameAs": [
+        "https://www.oblad.no/badebyen/varmbadets-kvinner/s/2-2.2610-1.3875943",
+        "https://www.oblad.no/badebyen/solveig-moberg/s/2-2.2610-1.3813298"
+      ]
+    }
+    </script>
+
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('theme');
+                var theme = stored === 'dark' ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+                var meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute('content', theme === 'dark' ? '#111111' : '#fafafa');
+            } catch (e) {}
+        })();
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#innhold">Hopp til innhold</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="/" data-section="landing">Solveig I. Moberg</a>
+            <nav id="site-nav" class="site-nav" aria-label="Hovedmeny">
+                <a href="/" data-section="landing">Hjem</a>
+                <a href="/om-meg" data-section="om-meg">Om meg</a>
+                <a href="/kunstvev" data-section="kunstvev">Kunstvev</a>
+                <a href="/collage" data-section="collage">Collage</a>
+                <a href="/kontakt" data-section="kontakt">Kontakt</a>
+            </nav>
+            <button type="button" id="theme-toggle" class="icon-btn theme-toggle" aria-pressed="false" aria-label="Bytt til mørk modus">
+                <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"/>
+                </svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M19.2 4.8l-1.6 1.6M6.4 17.6l-1.6 1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <button type="button" class="icon-btn nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Meny">
+                <svg class="icon-menu" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main id="innhold">
+        <section id="landing" class="hero">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <h1>Solveig I. Moberg</h1>
+                    <p class="lede">Kunstvev &amp; Collager</p>
+                </div>
+                <figure class="hero-figure">
+                    <img src="images/sim.jpg" alt="Solveig I. Moberg ved veven" width="1024" height="614" fetchpriority="high">
+                </figure>
+            </div>
+        </section>
+
+        <section id="om-meg" class="section">
+            <div class="section-inner">
+                <h2>Litt om meg</h2>
+                <div class="prose">
+                    <h3>Solveig I. Moberg</h3>
+                    <p>Opp igjennom årene har jeg vært syerske hos Lillemor Nerdrum, og arbeidet flere år hos buntmaker E. Nilsen. Etter det var jeg formingslærer i flere år, før jeg arbeidet mer og mer som kunstner med vevnadene mine. Først i 2009 begynte jeg med collager.</p>
+                    <p>Utdannelse fra Statens Kvinnelige Industriskole, nå Statens Lærerskole i Forming Oslo med søm, vev, prydsøm i 1967.</p>
+                    <h3>Kunstvev &amp; collager</h3>
+                    <p>Vevteppene mine har lin renning og ull innslag, ellers eksperimenterer jeg med både tau av hamp og syntetisk tråd og blanke stoffer. Collagene er som regel laget på plate med akrylmaling , folie,papp, papir og stoffer. Prisene ligger på mellom 1800-8000 kr for vevnadene og 1000-4500 kr for collagene ferdig innrammet.</p>
+                </div>
+                <div class="about-images">
+                    <img src="images/sim_02.png" alt="Kunstvev eksempel" width="2992" height="1624" loading="lazy">
+                    <img src="images/sim_03.png" alt="Collage eksempel" width="4276" height="2368" loading="lazy">
+                </div>
+                <div class="prose">
+                    <h3>Artikler om meg</h3>
+                    <p>Oblad artikkel: <a href="https://www.oblad.no/badebyen/varmbadets-kvinner/s/2-2.2610-1.3875943" target="_blank" rel="noopener">Varmbadets Kvinner</a></p>
+                    <p>Oblad intervju: <a href="https://www.oblad.no/badebyen/solveig-moberg/s/2-2.2610-1.3813298" target="_blank" rel="noopener">Solveig I. Moberg</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kunstvev" class="section">
+            <div class="section-inner">
+                <h2>Kunstvev Galleri</h2>
+                <div class="gallery" id="kunstvev-gallery"></div>
+            </div>
+        </section>
+
+        <section id="collage" class="section">
+            <div class="section-inner">
+                <h2>Collage Galleri</h2>
+                <div class="gallery" id="collage-gallery"></div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section">
+            <div class="section-inner">
+                <h2>Kontakt</h2>
+                <div class="contact-grid">
+                    <a class="map-link" href="https://maps.app.goo.gl/HiU5fohMpdkxjvyu7" target="_blank" rel="noopener noreferrer">
+                        <img src="images/map.png" alt="Kart" width="898" height="564" class="map-image">
+                    </a>
+                    <form id="kontakt-form" action="https://formspree.io/f/xwpapywr" method="POST">
+                        <input type="hidden" name="_next" value="https://solveig.im/kontakt?success=1">
+                        <label class="field">
+                            <span class="visually-hidden">Navn</span>
+                            <input type="text" name="name" placeholder="Navn" required minlength="2" pattern="[A-Za-zÆØÅæøå\s]+" title="Bare bokstaver er tillatt" autocomplete="name">
+                        </label>
+                        <label class="field">
+                            <span class="visually-hidden">Epost</span>
+                            <input type="email" name="email" placeholder="Epost" required autocomplete="email">
+                        </label>
+                        <label class="field">
+                            <span class="visually-hidden">Melding</span>
+                            <textarea name="message" placeholder="Melding" required minlength="10"></textarea>
+                        </label>
+                        <button type="submit" id="submit-button" disabled>Send Melding</button>
+                        <div id="form-response" class="form-response" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="personvern.html">Personvernerklæring</a>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Bildevisning">
+        <button type="button" class="lightbox-close" aria-label="Lukk">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+        </button>
+        <button type="button" class="lightbox-prev" aria-label="Forrige bilde">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button type="button" class="lightbox-next" aria-label="Neste bilde">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <img id="lightbox-img" alt="">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
